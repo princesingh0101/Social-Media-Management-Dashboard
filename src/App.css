@@ -1,7 +1,12 @@
-.sidebar {
-  width: 200px;
-}
-
-.sidebar .nav-link.active {
-  font-weight: bold;
+#loading-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #0d6efd;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.2s ease-out;
+  z-index: 1000;
 }
